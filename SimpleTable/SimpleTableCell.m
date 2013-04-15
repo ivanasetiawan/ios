@@ -11,9 +11,9 @@
 @implementation SimpleTableCell
 
 // Synthesize is no longer necessary
-@synthesize name = _name;
-@synthesize prepTime= _prepTime;
-@synthesize thumb = _thumb;
+@synthesize nameLabel = _nameLabel;
+@synthesize prepTimeLabel = _prepTimeLabel;
+@synthesize thumbnailImageView = _thumbnailImageView;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

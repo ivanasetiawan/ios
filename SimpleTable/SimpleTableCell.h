@@ -10,8 +10,8 @@
 
 @interface SimpleTableCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UIImageView *thumb;
-@property (weak, nonatomic) IBOutlet UILabel *name;
-@property (weak, nonatomic) IBOutlet UILabel *prepTime;
+@property (weak, nonatomic) IBOutlet UIImageView *thumbnailImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *prepTimeLabel;
 
 @end
